@@ -1,0 +1,80 @@
+.flex-container{
+    width: 400px;
+    height: 100px;
+    color: white;
+    background-color: rgb(218, 213, 213);
+    display: flex;
+    margin-left: 450px;
+    margin-top: 30px;
+}
+
+.container{
+    width: 500px;
+    height: 100px;
+    background-color: rgb(207, 7, 181);
+}
+
+.h1{
+    padding-left: 140px;
+    margin-bottom: 8px;
+}
+
+.input-field{
+    display: flex;
+    align-items: center;
+}
+
+input[type="text"]:focus{ /*targets the <input> element of type text when they are in focus. */
+    outline: none;
+}
+
+.search-bar{
+    height: 25px;
+    margin-left: 100px;
+    width: 170px;
+    margin-right: 0px;
+    border: none;
+}
+
+button{
+    background-color: rgb(106, 182, 233);
+    border: none;
+    height: 27px;
+    width: 50px;    
+}
+button:hover{
+    cursor: pointer;
+}
+
+.scrollable-div{
+    width: 400px;
+    height: 200px; 
+    overflow: auto; 
+    margin-left: 450px;
+}
+
+.task-item{
+    padding-left: 0px;
+    height: 25px;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+#taskList{
+    padding-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.task-item-even {
+    background-color: rgb(202, 230, 240);
+}
+
+.task-item-odd {
+    background-color: white;
+}
+
+.task-item-clicked {
+    background-color: lightgreen;
+    text-decoration: line-through;
+}
